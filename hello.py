@@ -1,18 +1,8 @@
-is_hot = False
-is_cold= True
-if is_hot:
-    print("It's a hot day")
-    print("Drink plenty of water")
-elif is_cold:
-    print("It's a cold day")
-    print("Wear warm clothes")
-else: print("It is a lovely day")
+has_good_income = True
+has_good_credit = False
+has_criminal_records = False
 
-price = 10000.00
-has_good_credit= True
-if has_good_credit:
-    down_payment = 0.1*price
-else:
-    down_payment = 0.2*price
-print(f"DownPayment: ${down_payment}")
-    
+if has_good_income and has_good_credit:
+    print("Eligible payments")
+elif has_good_credit or not has_good_credit:
+    print("Eligible payments again")
