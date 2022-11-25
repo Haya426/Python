@@ -1,9 +1,18 @@
-#search online python 3 math module
-import math
-print(math.ceil(2.9)) #print 3
-print(math.floor(2.9)) #print 2
-print(math.trunc(3.6)) #print 3
-print(math.pow(2,3)) #print 8
-x = 2.9
-print(round(x)) #print 3
-print(abs(-2.9)) #print positive value
+is_hot = False
+is_cold= True
+if is_hot:
+    print("It's a hot day")
+    print("Drink plenty of water")
+elif is_cold:
+    print("It's a cold day")
+    print("Wear warm clothes")
+else: print("It is a lovely day")
+
+price = 10000.00
+has_good_credit= True
+if has_good_credit:
+    down_payment = 0.1*price
+else:
+    down_payment = 0.2*price
+print(f"DownPayment: ${down_payment}")
+    
