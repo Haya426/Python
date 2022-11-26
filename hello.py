@@ -1,8 +1,5 @@
-weight = int(input("Weight: "))
-unit = input("(L)lbs or (K) kg: ")
-if unit.upper() == "L":
-    converted = weight * 0.45
-    print(f"You are {converted} kg")
-else:
-    converted = weight / 0.45
-    print(f"You are {converted} pounds")
+i = 1
+while i<=5:
+    print('*' * i)
+    i += 1
+print('done')
