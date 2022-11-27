@@ -1,26 +1,11 @@
-command =""
-started = False
-while True:
-    command = input(">").lower()
-    if command == "start":
-        if started:
-            print("Car is already started")
-        else: 
-            started = True
-            print("Car started successfully...")
-    elif command == "stop":
-        if not started:
-            print("Car is already stopped")
-        else: 
-            started = False
-            print("Car stopped")
-    elif command == "help":
-        print("""
-start - car started
-stop - car stopped
-quit - to quit
-              """
-           )
-    elif command == "quit":
-        break
-    else: print("Sorry, I don't understand")
+for item in 'Python':
+    print(item)
+
+for item in ['Mosh', 'Jhon', 'Sarah', 'David']:
+    print(item)
+    
+for item in [1,2,3,4,5,6,7,8,9]:
+    print(item)
+
+for item in range(0,10,2): #second arg - lens
+    print(item)            #third arg - step
